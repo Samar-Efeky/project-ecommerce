@@ -11,6 +11,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { ProfileComponent } from './profile/profile.component';
 import { authGuard } from './auth.guard';
 import { ShoppingComponent } from './shopping/shopping.component';
+import { OffersComponent } from './offers/offers.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 export const routes: Routes = [
     
     {path:"" , redirectTo:"home", pathMatch:"full"},
@@ -25,5 +27,7 @@ export const routes: Routes = [
     {path:"signup" , component:SignUpComponent},
     {path:"profile" , component:ProfileComponent},
     {path:"shopping", component:ShoppingComponent},
+    {path:"offers", component:OffersComponent},
+    {path:"productDetails/:x" , component:ProductDetailsComponent}
 ];
 

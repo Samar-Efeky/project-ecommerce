@@ -33,6 +33,7 @@ export class NavbarComponent implements OnInit{
   }
   screenWidth:number=0
   screen:boolean=false;
+  searchVisable:boolean=false
   ngOnInit() {
     this.categoriesList=this._productsService.categories;
     this._authService.currentUser.subscribe(()=>{
@@ -47,8 +48,16 @@ export class NavbarComponent implements OnInit{
       (width) => {
         this.screenWidth = width;
         console.log(this.screenWidth)
+        if(this.screenWidth>=1200){
+          this.searchVisable=true;
+        }
+        else if(this.screenWidth<=1200){
+          this.searchVisable=false;
+        }
       }
+  
     ); 
+  
   }
   productsCategory:any[]=[];
   getCategory(value:string){
@@ -68,7 +77,8 @@ export class NavbarComponent implements OnInit{
     this._router.navigate(["/home"]);
     this.isActive();
   }
-  searchVisable:boolean=false
+  
+  
   getSearch(){
       this.searchVisable=!this.searchVisable;
   }
