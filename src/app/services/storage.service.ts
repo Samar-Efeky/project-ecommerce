@@ -11,7 +11,7 @@ export class StorageService {
 
   setRandomProduct(product: any) {
     let currentTime = new Date().getTime();
-    let newExpiryTime = currentTime + 86400000; // 24 ساعة
+    let newExpiryTime = currentTime + 86400000; 
     localStorage.setItem(this.STORAGE_KEY, JSON.stringify(product));
     localStorage.setItem(this.EXPIRY_KEY, newExpiryTime.toString());
   }
@@ -24,7 +24,7 @@ export class StorageService {
       return JSON.parse(localStorage.getItem(this.STORAGE_KEY) || '{}');
     }
 
-    return null; // أو يمكنك إرجاع قيمة افتراضية
+    return null; 
   }
 
   clearStorage() {

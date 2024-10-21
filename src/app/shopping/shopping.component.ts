@@ -9,7 +9,7 @@ import { ProductsCategoryComponent } from "../products-category/products-categor
   standalone: true,
   imports: [CommonModule, FormsModule, ProductsCategoryComponent],
   templateUrl: './shopping.component.html',
-  styleUrls: ['./shopping.component.scss'],
+  styleUrls: ['./shopping.component.css'],
   animations:[slideDownAnimation]
 })
 export class ShoppingComponent implements OnInit {

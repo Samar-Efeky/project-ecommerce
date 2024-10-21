@@ -15,7 +15,7 @@ export class ProductsService{
   getAllProducts(category: string): Observable<any[]> {
     return this._httpClient.get(`../assets/api-files/${category}-us-en-true-1-100-images--.json`).pipe(
       map((data: any) => {
-        const productsData = data.images.slice(0, 60);
+        const productsData = data.images.slice(0, 40);
         const processedProducts = productsData.map((product: any, index: number) => ({
           ...product,
           randomPrice: this.getRandom(20, 20000),
@@ -26,22 +26,21 @@ export class ProductsService{
           category: category
         }));
         this.products.push(...processedProducts);
-        return processedProducts; // تأكد من أن هذا هو مصفوفة من المنتجات
+        return processedProducts; 
       })
      
     );
   }
   getProductById(id: number): Observable<any> {
     if (this.products.length === 0) {
-      // إذا كانت المنتجات غير محملة، قم بتحميلها أو إرجاع خطأ
       return throwError('Products not loaded yet');
     }
     
     const product = this.products.find(product => product.id === id);
     if (product) {
-      return of(product); // إرجاع المنتج كـ Observable
+      return of(product); 
     } else {
-      return throwError('Product not found'); // إرجاع خطأ إذا لم يتم العثور على المنتج
+      return throwError('Product not found'); 
     }
   }
   getCategoryByProductId(id: number): Observable<string | undefined> {

@@ -9,7 +9,9 @@
     <h1 class="fw-bold px-2 pt-lg-0 pt-2 logo" (click)="getCompoent()"><span class="">Electro</span><span class="text-white">Mart</span></h1>
   </div><!-- col-xl-3 -->
           <!-- input search -->
-  <div class="col-xl-5 col-7 mt-3 " [ngClass]="{'search-width':screenWidth<=1200}">
+  <div class="col-xl-5 col-7 mt-3 "
+   [ngClass]="{'search-width':screenWidth<=1200}"
+   *ngIf="searchVisable">
     <div class="position-relative w-100 ">
       <input type="search" class="p-2 w-100 pe-5" placeholder="Search for products">
       <div class="position-absolute end-0 search top-0 h-100 text-center">
@@ -21,6 +23,7 @@
   <div class="col-xl-4 col-8 ">
     <div class="navbar-icon d-flex justify-content-around">
       <div class="search-icon text-center mt-2"
+      (click)="getSearch()"
       *ngIf="screenWidth<=1200"
       [ngClass]="{'ms-auto':screenWidth<=1200}">
           <i class="fas fa-search "></i>

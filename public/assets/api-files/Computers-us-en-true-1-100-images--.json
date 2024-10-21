@@ -1241,48 +1241,9 @@
             "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcomputersfortheblind.org%2Fwp-content%2Fuploads%2F2022%2F10%2FG21_7479-1-1-1024x698.png&tbnid=3ct6c4CzZ45BhM&imgrefurl=https%3A%2F%2Fcomputersfortheblind.org%2Fapplication%2F&docid=LfdUsV403IH68M&w=1024&h=698",
             "position": 88
         },
-        {
-            "title": "How often should a computer be serviced? | Benefits of a service",
-            "imageUrl": "https://leeharveycomputing.co.uk/wp-content/uploads/2022/11/computer-and-laptop-servicing.jpg",
-            "imageWidth": 950,
-            "imageHeight": 534,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMQ6JCAdRzGBQ8FeVbD7Tb3j2Ps-dgsp_XQ&s",
-            "thumbnailWidth": 300,
-            "thumbnailHeight": 168,
-            "source": "Lee Harvey Computer Repairs",
-            "domain": "leeharveycomputing.co.uk",
-            "link": "https://leeharveycomputing.co.uk/how-often-should-a-computer-be-serviced/",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fleeharveycomputing.co.uk%2Fwp-content%2Fuploads%2F2022%2F11%2Fcomputer-and-laptop-servicing.jpg&tbnid=njWtV8AQmKRq1M&imgrefurl=https%3A%2F%2Fleeharveycomputing.co.uk%2Fhow-often-should-a-computer-be-serviced%2F&docid=EiNkfG83v9-ntM&w=950&h=534",
-            "position": 89
-        },
-        {
-            "title": "24” Computers, i5 Quad-Core Desktop Computer with Camera, 16G Ram 512G SSD  IPS HD Display, WiFi Bluetooth for Home Entertainment Business Office",
-            "imageUrl": "https://m.media-amazon.com/images/I/61nKXxxWbmL.jpg",
-            "imageWidth": 1500,
-            "imageHeight": 1500,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KYIsdiXkYlEkG9YuH5UF23czBlKuqIrbnQ&s",
-            "thumbnailWidth": 225,
-            "thumbnailHeight": 225,
-            "source": "Amazon.com",
-            "domain": "www.amazon.com",
-            "link": "https://www.amazon.com/Computers-Quad-Core-Computer-Bluetooth-Entertainment/dp/B0C55CXV1G",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F61nKXxxWbmL.jpg&tbnid=mwcvOlX6agqKzM&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FComputers-Quad-Core-Computer-Bluetooth-Entertainment%2Fdp%2FB0C55CXV1G&docid=HbS-KIUWblxJ1M&w=1500&h=1500",
-            "position": 90
-        },
-        {
-            "title": "HP Envy 34 All-in-One (2022) Review | PCMag",
-            "imageUrl": "https://i.pcmag.com/imagery/reviews/00xTIwo4AQMjnWl4H4ctDCq-1..v1643394203.jpg",
-            "imageWidth": 1920,
-            "imageHeight": 1080,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZ0WEmeUwe-xat-VgcC1bDRoSfMny-SmEMA&s",
-            "thumbnailWidth": 300,
-            "thumbnailHeight": 168,
-            "source": "PCMag",
-            "domain": "www.pcmag.com",
-            "link": "https://www.pcmag.com/reviews/hp-envy-34-all-in-one",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pcmag.com%2Fimagery%2Freviews%2F00xTIwo4AQMjnWl4H4ctDCq-1..v1643394203.jpg&tbnid=nIPwzNDi3s5jYM&imgrefurl=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fhp-envy-34-all-in-one&docid=gomASpPmQl_SeM&w=1920&h=1080",
-            "position": 91
-        },
+        
+        
+        
         {
             "title": "All-in-One Computers | Dell USA",
             "imageUrl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-com-landing-page/hero/all-in-one-computer-silver-dell-dt.jpg?fmt=png-alpha&wid=2800&hei=839",
@@ -1311,90 +1272,9 @@
             "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.cnn.com%2Fapi%2Fv1%2Fimages%2Fstellar%2Fprod%2Fcomputers-20241007195334141.jpg%3Fc%3D16x9%26q%3Dh_270%2Cw_480%2Cc_fill&tbnid=UdzLdJfTQIlM8M&imgrefurl=https%3A%2F%2Fwww.cnn.com%2Fcnn-underscored%2Felectronics%2Fcomputers-laptops&docid=e5NNt9XNRUqnoM&w=480&h=270",
             "position": 93
         },
-        {
-            "title": "History of computing: From Abacus to quantum computers",
-            "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1434/https://s3.cointelegraph.com/uploads/2023-06/bf6b03a8-43cf-4b27-8763-fb9a7a1d2808.jpg",
-            "imageWidth": 1434,
-            "imageHeight": 955,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQj4pQ-P4mj4CJ7Gp4I2THcKJabpJbObAu3A&s",
-            "thumbnailWidth": 275,
-            "thumbnailHeight": 183,
-            "source": "Cointelegraph",
-            "domain": "cointelegraph.com",
-            "link": "https://cointelegraph.com/news/history-of-computing-from-abacus-to-quantum-computers",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.cointelegraph.com%2Fcdn-cgi%2Fimage%2Fformat%3Dauto%2Conerror%3Dredirect%2Cquality%3D90%2Cwidth%3D1434%2Fhttps%3A%2F%2Fs3.cointelegraph.com%2Fuploads%2F2023-06%2Fbf6b03a8-43cf-4b27-8763-fb9a7a1d2808.jpg&tbnid=m2UyGVDpWX6h6M&imgrefurl=https%3A%2F%2Fcointelegraph.com%2Fnews%2Fhistory-of-computing-from-abacus-to-quantum-computers&docid=Lj-fqI2Ey4P2kM&w=1434&h=955",
-            "position": 94
-        },
-        {
-            "title": "CuriouSTEM - A Brief History of Digital Computers",
-            "imageUrl": "https://images.squarespace-cdn.com/content/v1/5efc3845201cfd62a7cad809/1612244465684-66D2P0XWCFTM78J3KVI8/lisa2.jpg",
-            "imageWidth": 567,
-            "imageHeight": 375,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJmHlE3av2AbHYnUdevA9lZJnYGQ5v5VPZdg&s",
-            "thumbnailWidth": 276,
-            "thumbnailHeight": 182,
-            "source": "CuriouSTEM",
-            "domain": "www.curioustem.org",
-            "link": "https://www.curioustem.org/stem-articles/a-brief-history-of-digital-computers",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F5efc3845201cfd62a7cad809%2F1612244465684-66D2P0XWCFTM78J3KVI8%2Flisa2.jpg&tbnid=akk4F-77jAMxpM&imgrefurl=https%3A%2F%2Fwww.curioustem.org%2Fstem-articles%2Fa-brief-history-of-digital-computers&docid=jG5jU86D8fbRSM&w=567&h=375",
-            "position": 95
-        },
-        {
-            "title": "Early Review Of New Computers In 2014 | Asus | Apple",
-            "imageUrl": "https://gracecomputers.com/wp-content/uploads/2014/01/computers.jpg",
-            "imageWidth": 300,
-            "imageHeight": 224,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6Tk75AjlZbSuXsHeYDMMrLHgXA4zNlYeng&s",
-            "thumbnailWidth": 260,
-            "thumbnailHeight": 194,
-            "source": "Grace Computers",
-            "domain": "gracecomputers.com",
-            "link": "https://gracecomputers.com/early-review-new-computers-2014/",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fgracecomputers.com%2Fwp-content%2Fuploads%2F2014%2F01%2Fcomputers.jpg&tbnid=DPDPkDjYnW9n1M&imgrefurl=https%3A%2F%2Fgracecomputers.com%2Fearly-review-new-computers-2014%2F&docid=U9Vf_sDY3j8TzM&w=300&h=224",
-            "position": 96
-        },
-        {
-            "title": "Evolution of Computers",
-            "imageUrl": "https://i.pinimg.com/736x/db/20/ea/db20ea5fafb541114a725243cb177675.jpg",
-            "imageWidth": 736,
-            "imageHeight": 687,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfN-4sq0NcNkyw4u_woVQ5lTGObRvXn0b64Q&s",
-            "thumbnailWidth": 232,
-            "thumbnailHeight": 217,
-            "source": "Pinterest",
-            "domain": "in.pinterest.com",
-            "link": "https://in.pinterest.com/pin/423549539927490709/",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fdb%2F20%2Fea%2Fdb20ea5fafb541114a725243cb177675.jpg&tbnid=n2ifeotOkuoYtM&imgrefurl=https%3A%2F%2Fin.pinterest.com%2Fpin%2F423549539927490709%2F&docid=LLiaD5EYGag_BM&w=736&h=687",
-            "position": 97
-        },
-        {
-            "title": "Retro Computers",
-            "imageUrl": "https://www.olimex.com/Products/Retro-Computers/_images/thumbs/310x230/retrocomp.jpg",
-            "imageWidth": 310,
-            "imageHeight": 230,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuNXyaXb0C0G55r0vAqAECzj5N8u2arnHUg&s",
-            "thumbnailWidth": 261,
-            "thumbnailHeight": 193,
-            "source": "www.olimex.com",
-            "domain": "www.olimex.com",
-            "link": "https://www.olimex.com/Products/Retro-Computers/",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.olimex.com%2FProducts%2FRetro-Computers%2F_images%2Fthumbs%2F310x230%2Fretrocomp.jpg&tbnid=FL3N-4MPez8gdM&imgrefurl=https%3A%2F%2Fwww.olimex.com%2FProducts%2FRetro-Computers%2F&docid=tkRd1MclUFV94M&w=310&h=230",
-            "position": 98
-        },
-        {
-            "title": "Computers | Domayne",
-            "imageUrl": "https://dmau.imgix.net/media/wysiwyg/group-pages/computers-tablets/computers-hero.jpg",
-            "imageWidth": 1260,
-            "imageHeight": 575,
-            "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2181mY2Dm_ernjmv1IamaDqhSU8_rmUoz9g&s",
-            "thumbnailWidth": 333,
-            "thumbnailHeight": 151,
-            "source": "Domayne",
-            "domain": "www.domayne.com.au",
-            "link": "https://www.domayne.com.au/computers",
-            "googleUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fdmau.imgix.net%2Fmedia%2Fwysiwyg%2Fgroup-pages%2Fcomputers-tablets%2Fcomputers-hero.jpg&tbnid=4a3qD7W8CIy3kM&imgrefurl=https%3A%2F%2Fwww.domayne.com.au%2Fcomputers&docid=yAdUtn_lB6zl-M&w=1260&h=575",
-            "position": 99
-        },
+      
+       
+        
         {
             "title": "Computers rule our lives. Where will they take us next ...",
             "imageUrl": "https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2022/02/100_computing_banner_desktop.jpg?fit=1440%2C810&amp;ssl=1",

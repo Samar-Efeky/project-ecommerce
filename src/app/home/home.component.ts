@@ -7,7 +7,7 @@ import { HeaderService } from '../services/header.service';
   standalone: true,
   imports: [CurrencyPipe],
 templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+  styleUrl: './home.component.css',
   animations:[slideInAnimation,imageAnimation]
 })
 export class HomeComponent implements OnInit, OnDestroy{

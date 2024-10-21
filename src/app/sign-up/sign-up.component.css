@@ -1,6 +1,5 @@
-@import "../../styles.scss";
 .signup-container{
-    background-color: $main-background;
+    background-color: var(--main-background);
 }
 .sign-up{
     width: 80%;
@@ -11,9 +10,9 @@
 .logo-title{
     cursor: pointer;
     font-size: 2rem;
-    span{
-        color: $main-color;
-    }
+}
+.logo-title span{
+    color: var(--main-color);
 }
 .input-container{
     margin: 5% 0;

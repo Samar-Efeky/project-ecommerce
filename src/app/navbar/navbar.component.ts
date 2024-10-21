@@ -8,13 +8,12 @@ import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
 import { ScreenWidthService } from '../services/screen-width.service';
-import { log } from 'node:console';
 @Component({
   selector: 'app-navbar',
   standalone: true,
   imports: [CommonModule,RouterLink,SideBarComponent,FormsModule],
 templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss',
+  styleUrl: './navbar.component.css',
   animations:[slideDownAnimation]
 })
 export class NavbarComponent implements OnInit{
@@ -68,6 +67,10 @@ export class NavbarComponent implements OnInit{
   getCompoent(){
     this._router.navigate(["/home"]);
     this.isActive();
+  }
+  searchVisable:boolean=false
+  getSearch(){
+      this.searchVisable=!this.searchVisable;
   }
 }
 

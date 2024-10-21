@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [ReactiveFormsModule,CommonModule],
   templateUrl: './sign-up.component.html',
-  styleUrl: './sign-up.component.scss'
+  styleUrl: './sign-up.component.css'
 })
 export class SignUpComponent {
  

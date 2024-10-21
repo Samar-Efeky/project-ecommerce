@@ -1,0 +1,23 @@
+.autocomplete-list{
+    max-height: 400px;
+    border: 1px solid var(--border-color);
+}
+.filter{
+    border: 1px solid var(--border-color);
+    background-color: white;
+
+}
+.page-link{
+  color: black;
+}
+.pagination .page-item .page-link {
+    border-color: var(--border-color);
+    cursor: pointer;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color:var(--main-color); 
+    color: #fff; 
+    border-color: var(--border-color);
+  }
+

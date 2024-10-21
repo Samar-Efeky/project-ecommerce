@@ -3,15 +3,14 @@ import { Component, Input, OnChanges, OnDestroy, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { TitlePipe } from '../pipes/title.pipe';
 import { ProductsService } from '../services/products.service';
-import { PricePipe } from '../pipes/price.pipe';
 import { RouterLink } from '@angular/router';
 import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-products-category',
   standalone: true,
-  imports: [CommonModule,FormsModule,TitlePipe,CurrencyPipe,PricePipe,RouterLink],
+  imports: [CommonModule,FormsModule,TitlePipe,CurrencyPipe,RouterLink],
 templateUrl: './products-category.component.html',
-  styleUrl: './products-category.component.scss'
+  styleUrl: './products-category.component.css'
 })
 export class ProductsCategoryComponent implements OnInit ,OnDestroy{
   products: any[] = [];

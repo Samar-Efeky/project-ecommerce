@@ -1,0 +1,15 @@
+.about {
+    background-color: var(--main-background);
+}
+.about-container {
+    font-size: 1.2rem;
+}
+.fa-check-circle {
+    color: var(--main-color);
+}
+@media screen and (max-width: 992px) {
+    .about-container{
+        font-size: 1rem;
+    }
+    
+}

@@ -1,18 +1,18 @@
-@import "../../styles.scss";
+
 .signin{
     width: 45%;
     box-shadow: 0px 2px 5px gray;
     max-height: 70%;
 }
 .container-fluid{
-    background-color:$main-background;
+    background-color:var(--main-background);
     height: 100vh;
 }
 .logo-title{
     cursor: pointer;
 }
 .logo-title span{
-    color:$main-color;
+    color:var(--main-color);
 }
 .input-container{
     margin: 5% 0;

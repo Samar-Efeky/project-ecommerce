@@ -4,14 +4,14 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators,FormBuilder } f
 import { AuthService } from '../services/auth.service';
 import { Router, RouterLink } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { log } from 'node:console';
+
 
 @Component({
   selector: 'app-sign-in',
   standalone: true,
   imports: [CommonModule,ReactiveFormsModule,RouterLink],
   templateUrl: './sign-in.component.html',
-  styleUrl: './sign-in.component.scss'
+  styleUrl: './sign-in.component.css'
 })
 export class SignInComponent implements OnDestroy{
   loginForm: FormGroup;

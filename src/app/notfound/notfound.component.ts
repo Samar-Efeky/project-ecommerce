@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './notfound.component.html',
-  styleUrl: './notfound.component.scss'
+  styleUrl: './notfound.component.css'
 })
 export class NotfoundComponent {
 

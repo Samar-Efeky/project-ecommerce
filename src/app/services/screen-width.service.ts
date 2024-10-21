@@ -5,14 +5,11 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class ScreenWidthService {
-  currentWidth = new BehaviorSubject<number>(0); // البدء بقيمة افتراضية
+  currentWidth = new BehaviorSubject<number>(0); 
 
   constructor() {
     if (this.isBrowser()) {
-      // حفظ العرض الحالي عند بدء الخدمة
       this.saveCurrentWidth();
-
-      // إضافة مستمع لتغيرات حجم الشاشة
       window.addEventListener('resize', () => {
         this.saveCurrentWidth();
       });
@@ -22,12 +19,11 @@ export class ScreenWidthService {
   saveCurrentWidth() {
     if (this.isBrowser()) {
       const screenWidth = window.innerWidth;
-      this.currentWidth.next(screenWidth); // تحديث currentWidth بالقيمة الجديدة
-      console.log('Updated screen width:', screenWidth); // سجل لتأكيد تحديث القيمة
+      this.currentWidth.next(screenWidth); 
+      console.log('Updated screen width:', screenWidth);
     }
   }
 
-  // التحقق مما إذا كان الكود يتم تشغيله في المتصفح
   private isBrowser(): boolean {
     return typeof window !== 'undefined';
   }
