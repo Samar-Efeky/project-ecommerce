@@ -1,0 +1,80 @@
+<div class="shopping container-fluid py-1">
+    <div class="row px-2 py-5">
+      <div class="filter-side col-xl-3 p-4 ">
+       <div class="w-100">
+        <button class="w-100 rounded-1 p-1 d-flex justify-content-between" (click)="isActive()">
+          <span>Select category</span>
+          <i class="text-white fs-6 fas fa-chevron-down pt-1"></i>
+        </button>
+         <div class="overflow-hidden ">
+          <ul *ngIf="active" class="categoryies-list options list-unstyled w-100 " @slideDown>
+            <li class="px-4">All</li>
+            @for (category of categoriesList; track $index){
+              <li class="px-4" >{{category}}</li>
+            }
+           </ul>
+         </div> <!-- overflow -->
+       </div>
+       <div class="py-3  border-bottom">
+        <div class="py-1">
+          <input type="checkbox" id="best-sellers" name="best-sellers">
+          <label for="best-sellers" class="px-3">Best sellers</label>
+        </div>
+        <div class="py-1">
+          <input type="checkbox" id="brands" name="brands">
+          <label for="brands" class="px-3">Brands</label>
+        </div>
+        <div class="py-1">
+          <input type="checkbox" id="offers" name="offers">
+          <label for="offers" class="px-3">Offers</label>
+        </div>
+       </div> <!-- py-4 -->
+       <div class="filter-price py-3 border-bottom">
+        <h6>Price</h6>
+        <a (click)="filterProducts(20,5000,'Up to 5000$')">Up to 5000$</a>
+        <a (click)="filterProducts(5000,10000,'5000 to 10000$')">5000 to 10000$</a>
+        <a (click)="filterProducts(10000,15000,'10000 to 15000$')">10000 to 15000$</a>
+        <a (click)="filterProducts(15000,20000,'15000$ & above')">15000$ & above</a>
+       </div> <!-- filter-price -->
+       <div class="customer-review py-3">
+        <h6>Customer Review</h6>
+        <div class="stars-icon py-1" (click)="filterByRating(4,'4 rating ang up')">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <span>& Up</span>
+        </div> <!-- stars-icon -->
+        <div class="stars-icon py-1">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <span>& Up</span>
+        </div> <!-- stars-icon -->
+        <div class="stars-icon py-1">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <span>& Up</span>
+        </div> <!-- stars-icon -->
+        <div class="stars-icon py-1">
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <span>& Up</span>
+        </div> <!-- stars-icon -->
+       </div><!-- customer-review -->
+      </div> <!-- filter-side -->
+      <div class=" col-xl-9 p-3">
+        <app-products-category></app-products-category>
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+  

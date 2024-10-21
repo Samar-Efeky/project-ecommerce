@@ -1,0 +1,89 @@
+<app-sidebar [sidebarState]="sidebarState"
+[islogin]="isLogin"
+(sidebarStateChange)="onSidebarStateChange($event)" 
+[categoriesList]="categoriesList">
+</app-sidebar> 
+<div class="navbar-container row w-100 bg-black fixed-top m-0 ">
+          <!-- logo -->
+  <div class="col-xl-3 col-4 mt-3">
+    <h1 class="fw-bold px-2 pt-lg-0 pt-2 logo" (click)="getCompoent()"><span class="">Electro</span><span class="text-white">Mart</span></h1>
+  </div><!-- col-xl-3 -->
+          <!-- input search -->
+  <div class="col-xl-5 col-7 mt-3 " [ngClass]="{'search-width':screenWidth<=1200}">
+    <div class="position-relative w-100 ">
+      <input type="search" class="p-2 w-100 pe-5" placeholder="Search for products">
+      <div class="position-absolute end-0 search top-0 h-100 text-center">
+        <i class="fas fa-search py-3 text-white"></i>
+      </div>
+    </div>
+  </div><!-- col-xl-5-->
+          <!-- user links -->
+  <div class="col-xl-4 col-8 ">
+    <div class="navbar-icon d-flex justify-content-around">
+      <div class="search-icon text-center mt-2"
+      *ngIf="screenWidth<=1200"
+      [ngClass]="{'ms-auto':screenWidth<=1200}">
+          <i class="fas fa-search "></i>
+          <p>Search</p>
+      </div>
+      <div class="text-center mt-4 " >
+        <a *ngIf="screenWidth>=1200" routerLink="shopping" (click)="ActiveFalse()">Buy Now</a>
+      </div>
+      <div class="text-center mt-2 " [ngClass]="{'ms-auto':screenWidth<=1200}" routerLink="cart" (click)="ActiveFalse()">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>My Cart</p>
+      </div>
+      <div class="text-center mt-2 " 
+      [ngClass]="{'ms-auto':screenWidth<=1200}"
+      *ngIf="!isLogin"
+      routerLink="signin" (click)="ActiveFalse()">
+        <i class="fa-solid fa-user"></i>
+        <p>Sign In</p>
+      </div>
+      <div class="profile text-center mt-2 "
+      [ngClass]="{'ms-auto':screenWidth<=1200}"
+       *ngIf="isLogin" (click)="ActiveFalse()">
+        <span class="bg-secondary text-white  d-inline-block  rounded-circle ">N</span>
+        <p>Profile</p>
+      </div>
+      <div class="mt-xl-2 mt-2 text-center ms-auto ms-xl-0" (click)="toggleSidebar()">
+        <i class="fa-solid fa-bars"></i>
+        <p>List</p>
+      </div>
+      <button *ngIf="!isLogin&&screenWidth>=1200"  class="px-2 py-1 rounded-1 h-50 my-3 " (click)="ActiveFalse()" routerLink="signup">SIGN UP</button>
+    </div>
+  </div><!-- col-xl-3 -->
+</div><!-- row -->
+<div class="container mt-5 pt-5">
+  <div class="row position-relative">
+    <div class="custom-select px-xl-0 px-1 col-xl-3 col-sm-6 position-relative">
+      <div class="categories-dropdown w-100 position-absolute ">
+          <button (click)="isActive()" class="w-100 selected border-0  p-2 d-flex justify-content-between align-items-center"><span>All categories</span><i class="text-white fs-6 fas fa-chevron-down"></i></button>
+          <div class="overflow-hidden ">
+            <ul *ngIf="Active" class="options w-100 bg-white" @slideDown>
+              <li class="p-2"  *ngFor="let list of categoriesList">{{list}}</li>
+            </ul>
+          </div>
+        </div><!-- categories-dropdown -->
+    </div><!-- col-xl-3 -->
+    <div class="col-xl-9 col-sm-6">
+      <nav class="">
+        <ul class="links list-unstyled w-100 d-none d-xl-flex  justify-content-between px-2">
+          <li><a routerLink="home" (click)="getCompoent()">Home</a></li>
+          <li><a routerLink="offers" (click)="ActiveFalse()">Deal of the Day</a></li>
+          <li><a routerLink="about" (click)="ActiveFalse()">About</a></li>
+          <li><a routerLink="bestsellers" (click)="ActiveFalse()">The Best Sellers</a></li>
+          <li><a routerLink="brands" (click)="ActiveFalse()">Brands</a></li>
+          <li><a routerLink="shopping" (click)="ActiveFalse()">Shopping</a></li>
+          <li><a routerLink="giftcards" (click)="ActiveFalse()" >Gift Cards</a></li>
+          <li><a routerLink="contact" (click)="ActiveFalse()">Contact</a></li>
+        </ul>
+      </nav>
+    </div> <!-- col-xl-3 -->
+  </div> <!-- row-->
+</div> <!-- container -->
+
+
+
+
+

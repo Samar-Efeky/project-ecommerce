@@ -1,0 +1,37 @@
+@import "../../styles.scss";
+.signup-container{
+    background-color: $main-background;
+}
+.sign-up{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 2px 5px gray;
+}
+.logo-title{
+    cursor: pointer;
+    font-size: 2rem;
+    span{
+        color: $main-color;
+    }
+}
+.input-container{
+    margin: 5% 0;
+}
+label{
+    left: 25px;
+    transform: translateY(-50%);
+}
+.fa-eye,.fa-eye-slash{
+    transform: translateY(50%);
+    right: 15px;
+}
+
+@media screen and (max-width:992px){
+    .sign-up{
+        width: 95%;
+    }
+    .logo-title{
+        font-size: 1.5rem;
+    }
+}

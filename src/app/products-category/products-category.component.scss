@@ -1,0 +1,20 @@
+@import "../../styles.scss";
+.autocomplete-list{
+    max-height: 400px;
+    border: 1px solid $border-color;
+}
+.filter{
+    border: 1px solid $border-color;
+    background-color: white;
+
+}
+.pagination .page-item .page-link {
+    border-color: $border-color;
+    cursor: pointer;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color:$main-color;
+    color: #fff; 
+    border-color: $border-color;
+  }

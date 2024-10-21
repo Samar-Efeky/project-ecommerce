@@ -1,0 +1,15 @@
+@import "../../styles.scss";
+.about{
+    background-color:$main-background ;
+}
+.about-container{
+    font-size: 1.2rem;
+}
+.fa-check-circle{
+    color: $main-color;
+}
+@media screen and (max-width:992px){
+    .about-container{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+<div class="home container-lg pt-xl-0 pt-5">
+    <div class="row pt-5 overflow-hidden">
+        <div class="home-content offset-xl-3 col-xl-3 col-6 px-xl-4 p-2"  @slideIn>
+            <h2 class="text-uppercase">the new standard</h2>
+            <p class="fw-bold text-uppercase">under favorable categories</p>
+            <span>FROM</span>
+            <h2 class="fw-bold" [@imageAnimation]="state">{{imgTitle}}</h2>
+            <button class="mt-2 px-5 py-2 rounded-2">Start Buying</button>
+        </div> 
+        <div class="offset-xl-1 col-xl-5 col-6 p-lg-5 m-xl-0 mt-5 ms-xl-auto">
+            <img [@imageAnimation]="state" [src]="imgSrc" alt="Product Image"  class=" product-image">
+        </div>
+    </div> 
+</div> 
